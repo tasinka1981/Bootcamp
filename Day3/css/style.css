@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+    font-family: 'Playfair Display', serif;
+}
+ul {
+    width: 600px;
+    margin: auto;
+}
+ 
+li {
+    display: inline-block;
+    margin: 20px;
+    
+}
+a:hover {
+    color: red;
+}
+section {
+    width: 470px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+}
+img {
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 20px;
+}
+h1 {
+    margin-bottom: 20px;
+}
