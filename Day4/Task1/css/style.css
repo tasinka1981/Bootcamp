@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: auto;
+    font-size: 20px;
+    text-indent: 30px;
+    padding-bottom: 30px;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+
+}
+
+.japan {
+    background-image: url(../img/ancient-architecture-asia-301614.jpg)
+}
+
+.tokyo {
+    background-image: url(../img/asia-japan-japanese-590478.jpg)
+}
+
+.culture {
+    background-image: url(../img/daylight-festival-gion-1325837.jpg)
+}
+
+.first {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+}
+
+.city {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 30px;
+}
+
+.history {
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+.name {
+    text-align: center;
+    color: blueviolet;
+}
+
+.let {
+    font-size: 30px;
+}
+
+.let1 {
+    color: darkgreen;
+}
+
+.let2 {
+    color: crimson;
+}
+
+.let3 {
+    color: chartreuse;
+}
