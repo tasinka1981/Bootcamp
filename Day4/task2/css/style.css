@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: chartreuse
 }
 
 .conteiner {
@@ -134,11 +135,20 @@ margin-bottom: 37px;
     width: 79px;
     margin-bottom: 45px;
 }
-li {
+ul li {
     display: inline-block;
+    margin: auto;
+    margin-bottom: 4px;
+}
+ul { 
+    margin-right: -4px;
+
 }
 .heig {
     height: 237px;
+}
+.gallery {
+    width: 100%;
 }
 .img6 {
     background-image: url(../img/Layer\ 5\ copy@1X.png);
@@ -165,6 +175,7 @@ li {
 .img11 {
     background-image: url(../img/Layer\ 5\ copy\ 4@1X\ \(2\).png);
     width: 34%;
+    margin-right: -4px;
 }
 .contact-us {
     background-color: white;
