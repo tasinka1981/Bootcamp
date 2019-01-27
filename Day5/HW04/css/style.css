@@ -17,7 +17,7 @@ font-family: 'Roboto', sans-serif; */
 .top-box {
     padding-top: 20px;
     width: 100%;
-    outline: 1px solid orangered;
+    
 
 }
 
@@ -45,8 +45,7 @@ font-family: 'Roboto', sans-serif; */
     list-style: none;
     text-transform: uppercase;
     float: right;
-    padding: 0;
-    margin: 0;
+
 }
 
 .menu a {
@@ -67,12 +66,7 @@ font-family: 'Roboto', sans-serif; */
     color: rgba(26, 188, 156, 255);
 }
 
-.header {
-    outline: 1px solid lawngreen;
-}
-
 .shop {
-    outline: 1px solid brown;
     padding-top: 111px;
     font-family: 'Roboto', sans-serif;
 }
@@ -85,7 +79,6 @@ h2 {
 
 .first {
     color: rgba(81, 81, 81, 255);
-    outline: 1px solid lightblue;
 
 }
 
@@ -106,24 +99,13 @@ h2 {
 .foto1 {
     width: 255px;
     background-color: #e8effc;
-    outline: 1px solid darkmagenta;
     text-align: center;
     height: 322px;
     float: left;
   
 }
-
-img {
-    outline: 1px solid orange;
-}
-.img2 {
-    display: inline-block;
-   
-}
-
 .button {
     width: 100%;
-    /* display: inline-block; */
 }
 
 .catalog {
