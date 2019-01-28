@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: auto;
+
+}
+
+.logo {
+    color: rgba(81, 81, 81, 255);
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 32px;
+}
+
+.logo span {
+    color: rgba(26, 188, 156, 255);
+}
+
+nav {
+    position: relative;
+    background-color: white;
+    height: 91px;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 43px;
+}
+
+
+.point {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.point1 {
+    text-decoration: none;
+    color: rgba(81, 81, 81, 255);
+}
+
+.point2 {
+    text-decoration: none;
+    color: rgba(81, 81, 81, 255);
+}
+
+.point3 {
+    text-decoration: none;
+    color: rgba(81, 81, 81, 255);
+}
+
+.point4 {
+    text-decoration: none;
+    color: rgba(81, 81, 81, 255);
+}
+
+.point5 {
+    text-decoration: none;
+    color: rgba(81, 81, 81, 255);
+}
+
+.point6 {
+    text-decoration: none;
+    color: rgba(81, 81, 81, 255);
+}
+
+.point:hover .point1 {
+    color: rgba(26, 188, 156, 255);
+}
+
+.point:hover .point2 {
+    color: rgba(26, 188, 156, 255);
+}
+
+.point:hover .point3 {
+    color: rgba(26, 188, 156, 255);
+}
+
+.point:hover .point4 {
+    color: rgba(26, 188, 156, 255);
+}
+
+.point:hover .point5 {
+    color: rgba(26, 188, 156, 255);
+}
+
+.point:hover .point6 {
+    color: rgba(26, 188, 156, 255);
+}
+
+.top {
+    background-image: url(../img/PUT\ YOUR\ IMAGE\ HERE@1X.png);
+    padding-top: 218px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 284px;
+    outline: 1px solid blue;
+    position: relative;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img2 {
+    position: absolute;
+    top: 224px;
+    left: 450px;
+}
+.img3 {
+    position: absolute;
+    top: 224px;
+    right: 450px;
+}
+.img4 {
+    position: absolute;
+    top: 254px;
+    right: 490px;
+}
+.img5 {
+    position: absolute;
+    top: 254px;
+    left: 490px;
+}
+.shop {
+    background-color: #e9f0fd;
+    padding-top: 101px;
+    padding-bottom: 98px;
+}
+.text1 {
+    color: rgba(81, 81, 81, 255);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 48px;
+}
+.text1::after {
+    content: "";
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 32px auto 82px;
+
+}
+.box {
+    list-style: none;
+}
+.item {
+    width: 255px;
+    display: inline-block;
+    margin-right: -4px;
+    
+}
+.item:not(:last-child) {
+margin-right: 26px;
+}
+.item img {
+    margin-bottom: -4px}
+.text2 {
+    max-width: 255px;
+    margin-right: -4px;
+    display: inline-block;
+    background-color: #323232;
+    color: rgba(255, 255, 255, 255);
+    font-size: 18px;
+}
