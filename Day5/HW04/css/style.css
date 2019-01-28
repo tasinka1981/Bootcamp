@@ -102,7 +102,17 @@ h2 {
     text-align: center;
     height: 322px;
     float: left;
-  
+}
+.img2 {
+width: 100%;
+
+}
+.foto3 {
+    height: 282px;
+    width: 255px;
+    background-color: cornflowerblue;
+
+
 }
 .button {
     width: 100%;

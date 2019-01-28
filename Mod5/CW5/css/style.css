@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container {
+   width: 600px;
+   margin: auto;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+.menu {
+    margin: auto;
+    position: relative;
+    background-color: aqua;
+    height: 50px;
+}
+p {
+    text-align: center;
+}
+.submenu {
+    color: red;
+    display: none;
+    position: relative;
+    
+    background-color: coral;
+    
+}
+.menu:hover .submenu {
+    display: block;
+    color: blue;
+}
+.menu2 {
+    background-color: blueviolet;
+    height: 50px;
+}
+.menu:hover {
+    height: 110px;
+}
+
+
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 50px;
+ }
+ .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(38, 0, 255);
+ }
