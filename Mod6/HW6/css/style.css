@@ -1,0 +1,84 @@
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 1px solid red;
+}
+.wrapper {
+    max-width: 1212px;
+    margin: auto;
+}
+header {
+    background-color: #ffffff;
+    padding-top: 28px;
+    margin-bottom: 127px;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo a {
+    text-decoration: none;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu li:not(:last-child) {
+    margin-right: 55px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.services {
+    background-color: #ffffff;
+}
+.text1 {
+    text-align: center;
+    color: rgba(51, 51, 51, 255);
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 22px;
+}
+.text2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+}
+.text2::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    display: block;
+    margin: 42px auto 66px;
+}
+.bigBox {
+    width: 100%
+}
+.litBox {
+    width: 329px;
+    
+}
+.box1 {
+    display: inline-block;
+
+    
+}
+.box1::before {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 31px;
+    background-image: url(../img/ALARM@1X.png);
+    display: inline-block;
+
+}
