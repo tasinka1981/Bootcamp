@@ -1,0 +1,29 @@
+.wrapper {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: blue;
+margin: auto;
+/* overflow: hidden; */
+
+}
+.conteiner {
+    /* max-width: 500px; */
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+.conteiner2 {
+    width: 500px;
+    height: 500px;
+    background-color: coral;
+    position: absolute;
+    top: 0;
+    transition: all 2s ease;
+    left: -500px;
+}
+.wrapper:hover .conteiner2 {
+    /* left: -500px; */
+    transform: translateX(500px);
+    transition: all 2s ease;
+} 
