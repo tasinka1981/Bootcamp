@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 
 }
 .wrapper {
@@ -45,4 +45,16 @@ header {
 .Bigbox {
     display: flex;
     justify-content: space-between;
+}
+.box {
+    text-align: center;
+}
+.icon1 {
+    width: 68px;
+    height: 68px;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    padding-top: 12px;
+    margin: auto;
+    margin-bottom: 28px;
 }
