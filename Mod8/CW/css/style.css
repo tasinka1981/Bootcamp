@@ -75,7 +75,7 @@ justify-content: space-between;
 }
 .photoGal {
     width: 33.33%;
-    height: 150px;
+    height: auto;
 }
 .BigBox img {
     width: 100%;
