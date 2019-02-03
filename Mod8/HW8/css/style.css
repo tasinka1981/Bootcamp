@@ -103,10 +103,25 @@ button {
 }
 .sect2 h2 {
   margin-bottom: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(51, 51, 51, 255);
+
 }
 .text1 {
   margin-bottom: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(51, 51, 51, 255);
 }
+.text2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(102, 102, 102, 255);
+  }
 .LitBox {
   margin-bottom: 28px;
   height: 50%;
@@ -192,10 +207,11 @@ button {
   .sect2 {
     padding-top: 72px;
     padding-bottom: 72px;
-    width: 60%;
+    width: 70%;
   }
   .sect2 h2 {
     margin-bottom: 30px;
+    font-size: 22px;
   }
   .LitBox {
     width: 50%;
@@ -228,7 +244,7 @@ button {
 }
 @media (min-width: 1024px) {
   .wrapper {
-    max-width: 1200px;
+    max-width: 1440px;
   }
   header {
     width: 80%;
