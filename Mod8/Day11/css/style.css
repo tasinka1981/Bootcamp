@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#aqua {
+    height: 100vh;
+    background-color: aqua;
+    width: 100%;
+}
+#green {
+    height: 100vh;
+    background-color: green;
+    width: 100%;
+}
+#blue {
+    height: 100vh;
+    background-color:blue;
+    width: 100%;
+}
+.cont {
+    display: flex;
+   
+}
+.cont1 {
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+}
+.cont2 {
+    height: 400px;
+    width: 400px;
+    background-color: olive;
+    display: none;
+}
+#drop:checked ~ .cont2 {
+    display: block;
+}
+.none {
+    display: none;
+}
